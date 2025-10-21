@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Mehandhi_booking_page/static/css/main.0dc3cab8.css",
-    "main.js": "/Mehandhi_booking_page/static/js/main.dc72c7be.js",
+    "main.js": "/Mehandhi_booking_page/static/js/main.1fd3ad21.js",
     "static/js/453.18a6b2e2.chunk.js": "/Mehandhi_booking_page/static/js/453.18a6b2e2.chunk.js",
     "index.html": "/Mehandhi_booking_page/index.html",
     "main.0dc3cab8.css.map": "/Mehandhi_booking_page/static/css/main.0dc3cab8.css.map",
-    "main.dc72c7be.js.map": "/Mehandhi_booking_page/static/js/main.dc72c7be.js.map",
+    "main.1fd3ad21.js.map": "/Mehandhi_booking_page/static/js/main.1fd3ad21.js.map",
     "453.18a6b2e2.chunk.js.map": "/Mehandhi_booking_page/static/js/453.18a6b2e2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc3cab8.css",
-    "static/js/main.dc72c7be.js"
+    "static/js/main.1fd3ad21.js"
   ]
 }
