@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; 
+    margin: 0;
+    padding: 0;
+}
+
+.user-login-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    padding: 20px;
+    background-image: url('https://images.pexels.com/photos/14825258/pexels-photo-14825258.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.user-login-heading {
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.user-login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.user-login-field {
+    margin-bottom: 20px;
+}
+
+.user-login-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: #333333;
+}
+
+.user-login-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC; 
+    font-size: 1rem;
+    color: #333333;
+}
+.login-note{
+    
+    font-size: small;
+    color: #333333;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.user-login-input:focus {
+    border-color: #66B2FF;
+    outline: none;
+}
+
+.user-login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ac5c11;
+    border: none;
+    border-radius: 4px;
+    color: #ffffffd2;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-login-button:hover {
+    background-color: #22ab24; 
+}
+
+@media (max-width: 600px) {
+    .user-login-content {
+        padding: 10px;
+    }
+
+    .user-login-form {
+        padding: 20px;
+    }
+
+    .user-login-heading {
+        font-size: 2rem;
+    }
+
+    .user-login-button {
+        font-size: 1rem;
+    }
+}

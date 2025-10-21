@@ -1,0 +1,140 @@
+.hero {
+    background-image: url('https://images.pexels.com/photos/1081997/pexels-photo-1081997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(167, 15, 136);
+    text-align: center;
+  }
+  
+
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .hero-content h1:hover {
+  transform: scale(1.1);
+  
+}
+
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  .hero .btn-primary {
+    margin-top: 20px;
+  }
+  
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 350px;
+    padding-left: 3%;
+    object-fit: cover;
+    width :30%;
+    
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    color: #28a745;
+  }
+  
+  .footer {
+    padding: 20px ;
+    background-color: #3c93eb;
+    align-content: center;
+
+    padding-top: 5%;
+  }
+  .container text-center{
+    text-align: center;
+  }
+  
+
+.card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+/* Gallery inside each card */
+.card-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 5px;
+  padding: 10px;
+}
+
+.card-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: #f8f8f8; 
+}
+
+/* Hover zoom effect */
+.card-gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .card-gallery {
+    grid-template-columns: repeat(2, 1fr); /* show 2 per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-gallery {
+    grid-template-columns: 1fr; /* stack images vertically on very small screens */
+  }
+}
+
+
+/* Zoom effect on hover */
+.card img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Button hover effect */
+.btn:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 24px;
+  }
+  .hero-content p {
+    font-size: 14px;
+  }
+  .card img {
+    height: auto;
+    
+
+  }
+}
+
+
+
+.container.text-center {
+  text-align: center;
+}
