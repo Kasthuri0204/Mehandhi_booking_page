@@ -7,19 +7,15 @@ This app allows users to **signup, login, view services, and contact** the servi
 Check out the live app here:  
 [🌐 View Live Site](https://Kasthuri0204.github.io/Mehandhi_booking_page/)
 
-## 🖼 Screenshots
+## 🖼 Pages
 
 **Login Page**  
-![Login](screenshots/login.png)
 
 **Home Page**  
-![Home](screenshots/home.png)
 
 **About Page**  
-![About](screenshots/about.png)
 
 **Contact Page**  
-![Contact](screenshots/contact.png)
 
 ---
 
